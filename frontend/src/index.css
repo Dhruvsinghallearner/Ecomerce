@@ -1,0 +1,14 @@
+
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
