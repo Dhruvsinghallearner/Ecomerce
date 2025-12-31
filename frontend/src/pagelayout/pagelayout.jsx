@@ -7,12 +7,14 @@ function PageLayout() {
     <>
    <header>   <Navbar /></header>
 
-      <main className="min-h-screen px-6 py-4">
+      <main className="px-6 py-4">
         <Outlet />
       </main>
-    
+    <footer>
+        
 <Footer/>
 
+    </footer>
       
     </>
   );
